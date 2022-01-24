@@ -1,0 +1,123 @@
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+.fade_btn {
+  position: relative;
+  font:  bold 5em/1 Bodoni, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  animation: fadeIn 0.9s infinite alternate;
+}
+
+.well{
+  background-color: rgba(63, 63, 63, 0.4);
+}
+.well2{
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+.in_img{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.well1{
+  background: rgba(0, 0, 0, 0.4);
+}
+.textDec{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.icon_nav{
+  color: rgb(255, 255, 255);
+  display: 'flex';
+  align-items: 'center';
+  flex-wrap: 'wrap';
+}
+.textDec:hover {
+  color: rgb(107, 107, 107);
+
+}
+.card_home2{
+  background-color: rgba(228, 228, 228, 0.61);
+}
+.img_max{
+  width: 75%;
+}
+.bgcolor1{
+  background-color: #0F1418;
+}
+.img_silder{
+  width: 50%;
+}
+@media (max-width: 600px) {
+  .card{
+    max-width:100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .img_silder{
+    width: 100%;
+  }
+  .container {
+    max-width:100%;
+    width: 100%;
+}
+.img_max{
+  width: 100%;
+}
+.in_img{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+}
+
+.line_cus {
+  font-family: "Share Tech Mono", monospace;
+  color: #CC9933;
+  font-size: 6vh;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line_cus::before, .line_cus::after {
+  content: '';
+  display: block;
+  height: 0.09em;
+  min-width: 30vw;
+}
+.line_cus::before {
+  background: linear-gradient(to right, rgba(240, 240, 240, 0), #CC9933);
+  margin-right: 4vh;
+}
+.line_cus::after {
+  background: linear-gradient(to left, rgba(240, 240, 240, 0), #CC9933);
+  margin-left: 4vh;
+}
+
+
+
