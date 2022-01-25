@@ -11,6 +11,11 @@
   text-align: center;
   animation: fadeIn 0.9s infinite alternate;
 }
+html,body{
+  margin:0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 
 .well{
   background-color: rgba(63, 63, 63, 0.4);
