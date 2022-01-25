@@ -164,15 +164,15 @@ function MyApp({ Component, pageProps }) {
             </div>
             <div className="col-sm mx-auto container text-center">
               <Button
-                style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px' }}
-                variant="contained"  className="w-75 btn_register" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/" startIcon={<GroupAddIcon />}>
+                style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px',color:'#000000'  }}
+                variant="contained"  className="w-75 btn_register text-dark" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/" startIcon={<GroupAddIcon />}>
                 Register สมัครสมาชิก
               </Button>
 
               <div className="row mt-2">
-                <div className="col text-dark">
+                <div className="col">
                   <Button
-                    style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px',color:'#000000' }}
+                    style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px'}}
                     variant="contained" color='error' className="w-75" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/?fbclid=IwAR121Rkn_3uw449_hreLKrOshvlkTD9mH2YX0qPF_UQFXndQI8gV0MoOWtA" startIcon={<LoginIcon />}>
                     Login เข้าสู่ระบบ
                   </Button></div>
