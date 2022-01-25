@@ -27,7 +27,7 @@ html,body{
 }
 .in_img{
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 50%;
     width: 20%;
     transform: translate(-50%, -50%);
@@ -55,14 +55,19 @@ html,body{
   color: rgb(107, 107, 107);
 
 }
+.text-footer{
+  text-align: left;
+}
 .card_home2{
-  background-color: rgba(228, 228, 228, 0.61);
+  background-color: rgba(0, 0, 0, 0.137);
+  color:rgb(255, 255, 255);
 }
 .img_max{
   width: 75%;
 }
 .bgcolor1{
   background-color: #0F1418;
+  
 }
 .img_silder{
   width: 50%;
@@ -77,6 +82,9 @@ html,body{
   .img_silder{
     width: 100%;
   }
+  .text-footer{
+    text-align: center;
+  }
   .container {
     max-width:100%;
     width: 100%;
@@ -86,7 +94,7 @@ html,body{
 }
 .in_img{
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 50%;
     width: 40%;
     transform: translate(-50%, -50%);

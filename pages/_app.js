@@ -144,7 +144,7 @@ function MyApp({ Component, pageProps }) {
         <div className="w-100 mx-auto px-2 py-2" style={{ backgroundImage: `url(${bg12.src})`, backgroundSize: "cover" }}>
           <div className="row">
             <div className="col-sm">
-              <Button className="m-3 fade_btn" onClick={toggleDrawer('left', true)}  size='large' variant="outlined" 
+              <Button className="m-3" onClick={toggleDrawer('left', true)}  size='large' variant="outlined" 
               style={{color:"#ffffff"}}
                startIcon={<MenuIcon size='large' fontSize='large' />}><h5>เมนู</h5></Button>
               <SwipeableDrawer
@@ -184,6 +184,16 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>
   <Component {...pageProps} />
+  <div className=" text-white w-100 bgcolor1">
+        <div className="row w-100 container mx-auto">
+          <div className="col-sm-3 p-3 ">
+            <img  src={logolast2.src} className="w-75 mx-auto d-block" />
+          </div>
+          <div className="col-sm-9 p-3 text-footer text-justify">
+            สมาชิกที่สมัครเปิดยูสเซอร์กับทางเว็บ MM88KICKOFF.NET สมัครเว็บ MM88 สามารถร่วมสนุกผ่านเว็บไซต์ได้ทั้งทางคอม PC และโทรศัพท์มือถือระบบ ios,android ซึ่งเว็บไซต์มีระบบรักษาความปลอดภัยที่เชื่อถือได้ เเละมีมาตรฐานสากลระดับโลก ในการรองรับ เล่นพนันออนไลน์ เรามีทีมงานคุณภาพเเละมีออฟฟิตที่ได้มาตรฐานอยู่ในประเทศเพื่อนบ้าน เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน เรามีบริการ Call center 24 ชม. มีช่องทางการติดต่อ ทั้ง โทรศัพท์ Line Livechat ฉะนั้น MM88KICKOFF.NET จึงเป็นเว็บพนันออนไลน์ แทงบอลออนไลน์ แทงสเต็ปออนไลน์ แทงคาสิโนออนไลน์ แทงสล๊อตออนไลน์ แทงหวยออนไลน์ แทงล็อตเตอรี่ออนไลน์ แทงเกมส์ออนไลน์ แทงมวยไทยออนไลน์ แทงบาสเก็ตบอลออนไลน์ แทงเทนนิสออนไลน์ ที่ได้รับความนิยมสูงสุด
+          </div>
+        </div>
+      </div>
   </div>)
 }
 
