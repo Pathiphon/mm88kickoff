@@ -4,6 +4,14 @@
     opacity: 0;
   }
 }
+.btn_register{
+  background: rgb(190,142,30);
+  background: linear-gradient(180deg, rgba(190,142,30,1) 0%, rgba(253,246,215,1) 30%, rgba(255,255,255,1) 50%, rgba(253,246,215,1) 70%, rgba(190,142,30,1) 100%);
+  color: #000;
+  border-color: #e9c00b;
+  border-style: solid;
+  border-width: thin;
+}
 .padding-ai{
   padding: 20px;
 }
