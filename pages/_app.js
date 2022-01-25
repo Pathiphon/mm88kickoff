@@ -170,9 +170,9 @@ function MyApp({ Component, pageProps }) {
               </Button>
 
               <div className="row mt-2">
-                <div className="col">
+                <div className="col text-dark">
                   <Button
-                    style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px' }}
+                    style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px',color:'#000000' }}
                     variant="contained" color='error' className="w-75" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/?fbclid=IwAR121Rkn_3uw449_hreLKrOshvlkTD9mH2YX0qPF_UQFXndQI8gV0MoOWtA" startIcon={<LoginIcon />}>
                     Login เข้าสู่ระบบ
                   </Button></div>
