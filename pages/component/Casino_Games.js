@@ -2,7 +2,7 @@ import React from 'react'
 import logo1 from '../image/pro_s_1.jpg'
 import logo2 from '../image/pro_s_2.jpg'
 import logo3 from '../image/pro_s_3.jpg'
-import bgH from '../image/bgH.jpeg'
+import bgH from '../image/bgH.png'
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import LoginIcon from '@mui/icons-material/Login';
 import { Button, Box, ImageListItem, ImageList, CardActions, Typography, CardContent, CardMedia, Card } from '@mui/material';
