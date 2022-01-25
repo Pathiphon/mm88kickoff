@@ -2,8 +2,7 @@ import React from 'react'
 import logo1 from '../image/pro_s_1.jpg'
 import logo2 from '../image/pro_s_2.jpg'
 import logo3 from '../image/pro_s_3.jpg'
-import bg_header1 from '../image/bg_header.jpeg'
-import bg_header2 from '../image/bg_header.jpeg'
+import bgH from '../image/bgH.jpeg'
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import LoginIcon from '@mui/icons-material/Login';
 import { Button, Box, ImageListItem, ImageList, CardActions, Typography, CardContent, CardMedia, Card } from '@mui/material';
@@ -69,7 +68,7 @@ export default function Casino_Games() {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-            <div className='text-center p-2' style={{ backgroundImage: `url(${bg_header1.src})`, backgroundSize: "cover" }}>
+            <div className='text-center p-2' style={{ backgroundImage: `url(${bgH.src})`, backgroundSize: "cover" }}>
                 <h3 className="my-auto">SA CASINO คาสิโนสด</h3>
             </div>
             <div className="m-0" style={{ backgroundImage: `url(${bg_casino.src})`, backgroundSize: "cover" }}>
@@ -103,7 +102,7 @@ export default function Casino_Games() {
                     </div>
                 </div>
             </div>
-            <div className='text-center p-2' style={{ backgroundImage: `url(${bg_header2.src})`, backgroundSize: "cover" }}>
+            <div className='text-center p-2' style={{ backgroundImage: `url(${bgH.src})`, backgroundSize: "cover" }}>
                 <h3 className="my-auto">เกมส์ Slot ยอดนิยมเล่นง่ายแจกเยอะ</h3>
             </div>
             <div className="m-0" style={{ backgroundImage: `url(${bg_casino.src})`, backgroundSize: "cover" }}>
