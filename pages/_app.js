@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }) {
         </a>
         </Link>
         <Divider color='white' />
-        <a className="textDec text-center" href='https://acc.mm88kickoff.bet/register/' target="_blank" style={{ textDecoration: 'none' }}>
+        <a className="textDec text-center" href='https://acc.mm88kickoff.bet/register/'rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
           <ListItem button style={{ display: 'flex', justifyContent: 'center' }} >
             <ListItemIcon>
               <GroupAddIcon className="icon_nav mx-auto" />
@@ -167,7 +167,7 @@ function MyApp({ Component, pageProps }) {
             <div className="col-sm mx-auto container text-center">
               <Button
                 style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px',backgroundColor:'#FFD700',color:'#000000' }}
-                variant="contained" color='primary' className="w-75" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/" startIcon={<GroupAddIcon />}>
+                variant="contained" color='primary' className="w-75" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/" startIcon={<GroupAddIcon />}>
                 สมัครสมาชิก
               </Button>
 
@@ -175,7 +175,7 @@ function MyApp({ Component, pageProps }) {
                 <div className="col">
                   <Button
                     style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px' }}
-                    variant="contained" color='error' className="w-75" target="_blank" component="a" href="https://acc.mm88kickoff.bet/?fbclid=IwAR121Rkn_3uw449_hreLKrOshvlkTD9mH2YX0qPF_UQFXndQI8gV0MoOWtA" startIcon={<LoginIcon />}>
+                    variant="contained" color='error' className="w-75" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/?fbclid=IwAR121Rkn_3uw449_hreLKrOshvlkTD9mH2YX0qPF_UQFXndQI8gV0MoOWtA" startIcon={<LoginIcon />}>
                     Login เข้าสู่ระบบ
                   </Button></div>
               </div>
