@@ -24,13 +24,13 @@ export default function Index() {
               </ol>
               <div className="carousel-inner">
                   <div className="carousel-item active">
-                      <img  className="d-block img_silder well2" src={logo1.src} alt="First slide" />
+                      <img loading="lazy"  className="d-block img_silder well2" src={logo1.src} alt="First slide" />
                   </div>
                   <div className="carousel-item">
-                      <img className="d-block img_silder well2 " src={logo2.src} alt="Second slide" />
+                      <img loading="lazy" className="d-block img_silder well2 " src={logo2.src} alt="Second slide" />
                   </div>
                   <div className="carousel-item">
-                      <img className="d-block img_silder well2" src={logo3.src} alt="Third slide" />
+                      <img loading="lazy" className="d-block img_silder well2" src={logo3.src} alt="Third slide" />
                   </div>
               </div>
               <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -51,7 +51,7 @@ export default function Index() {
                   </div>
               </div>
               <div className="text-center pt-2 ">
-                  <img  src={casino1.src} className="img_max" />
+                  <img loading="lazy"  src={casino1.src} className="img_max" />
               </div>
           </div>
           <div style={{ backgroundImage: `url(${bglive.src})`, backgroundSize: "cover" }}>
@@ -62,9 +62,9 @@ export default function Index() {
                 <p className='text-white pr-1 pl-1 text-justify m-3'>คาสิโนออนไลน์อันดับ 1 ของประเทศไทย คาสิโนออนไลน์เว็บตรงของ mm88kickoff มีทั้ง SA Gaming เกมคาสิโนยอดนิยมพบกับคาสิโนสด SA บาคาร่า SA ได้รวมคาสิโนสดยอดนิยมไว้ในที่เดียวอิทิ เช่น บาคาร่า , เสือ มังกร , Sic Bo , รูเล็ต, ไฮโล,  ป๊อกเด้ง,  เเบล็กเเจ็ก,  สล็อต777 สมัครสล็อตออนไลน์วันนี้ท่านสามารถเล่น สล็อตออนไลน์มือถือ ไม่ว่าจะเป็น สล็อตออนไลน์777 สล็อตออนไลน์888 หรือ สล็อตที่ได้รับความนิยมสูงสุดตอนนี้ สล็อตjoker เเตกมาเเล้วเป็นล้าน ลุ้นกันง่ายๆกับสล็อตออนไลน์ ฝากถอนไม่มีขั้นต่ำกับเว็บสล็อตออนไลน์ที่นี้ที่เดียว ทดลองเล่นพร้อมเครดิตฟรี  สมัครบาคาร่าเว็บไหนดี บาคาร่า88 บาคาร่า66 บาคาร่า99 บาคาร่าsa บาคาร่า168 ลองเปิดใจสมัครเว็บบาคาร่าmm88kickoff ดูซิค่ะ บาคาร่าเว็บนี้ดีที่สุด เพราะเป็นเว็บบาคาร่าที่คนเล่นเยอะที่สุด บาคาร่าออนไลน์เล่นได้เงินจริง โอนจริงโอนไว สมัครบาคาร่า888 วันนี้เรามีสาวๆ Sexy ทั้งเอเชียเเละยุโรปคอยบริการตลอด 24ชม. กับ sexy baccarat, tiger dragon ฯลฯ</p>
                 </div>
               <div className="text-center pt-2 " style={{ position: "relative" }}>
-                  <img  src={demo1.src} className="rounded w-100" />
+                  <img loading="lazy"  src={demo1.src} className="rounded w-100" />
                   <a target="_blank" rel="noreferrer" href='https://mm88bet.com/demo-sa/'>
-                      <img src={button1.src} className="in_img fade_btn" />
+                      <img loading="lazy" src={button1.src} className="in_img fade_btn" />
                   </a>
               </div>
           </div>

@@ -10,6 +10,10 @@
 .padding-ai{
   padding: 50px;
 }
+.txt_head{
+  background: rgb(191,149,63);
+background: linear-gradient(180deg, rgba(191,149,63,1) 0%, rgba(252,246,186,1) 50%, rgba(170,119,28,1) 100%);
+}
 .fade_btn {
   position: relative;
   font:  bold 5em/1 Bodoni, serif;
@@ -18,9 +22,9 @@
   text-align: center;
   animation: fadeIn 0.9s infinite alternate;
 }
-html{
+html,body{
   margin:0px;
-  padding: 0;
+  padding: 0px;
   overflow-x: hidden;
 }
 

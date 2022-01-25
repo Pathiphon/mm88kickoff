@@ -49,13 +49,13 @@ export default function Casino_Games() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block img_silder w-100" src={logo1.src} alt="First slide" />
+                        <img loading="lazy" className="d-block img_silder w-100" src={logo1.src} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block img_silder w-100" src={logo2.src} alt="Second slide" />
+                        <img loading="lazy" className="d-block img_silder w-100" src={logo2.src} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block img_silder w-100" src={logo3.src} alt="Third slide" />
+                        <img loading="lazy" className="d-block img_silder w-100" src={logo3.src} alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -67,84 +67,84 @@ export default function Casino_Games() {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-            <div className='text-center p-2' >
-                <h3 className="my-auto">SA CASINO คาสิโนสด</h3>
+            <div className='text-center p-2 txt_head' >
+                <h4 className="my-auto">SA CASINO คาสิโนสด</h4>
             </div>
             <div className="m-0" style={{ backgroundImage: `url(${bg_casino.src})`, backgroundSize: "cover" }}>
                 <div className='container pt-4 pb-4' >
                     <div className="row container mx-auto ">
                         <div className="col m-1 p-0 ">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="w-100"></div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='text-center p-2' >
-                <h3 className="my-auto">เกมส์ Slot ยอดนิยมเล่นง่ายแจกเยอะ</h3>
+            <div className='text-center p-2 txt_head' >
+                <h4 className="my-auto">เกมส์ Slot ยอดนิยมเล่นง่ายแจกเยอะ</h4>
             </div>
             <div className="m-0" style={{ backgroundImage: `url(${bg_casino.src})`, backgroundSize: "cover" }}>
                 <div className='container pt-4 pb-4' >
                     <div className="row container mx-auto ">
                         <div className="col m-1 p-0 ">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
 
                         <div className="w-100"></div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="w-100"></div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ export default function Casino_Games() {
                 <div className="row padding-ai">
                     <div className="col-sm">
                         <div className="row text-white padding-ai"> สูตรบาคาร่า AI สูตรแทงบาคาร่า รวมสูตรบาคาร่าทั้งสองค่ายไว้ในเว็บเดียวมีทั้ง สูตร sexy บาคาร่า , สูตร SA บาคาร่า โปรแกรมวิเคราะห์บอล AI วิเคราะห์บอล</div>
-                        <div className="row m-1"> <img src={AI2.src} className="w-100" /></div>
+                        <div className="row m-1"> <img loading="lazy" src={AI2.src} className="w-100" /></div>
                         
                     </div>
                     <div className="col-sm  d-flex align-items-center padding-btn" style={{ backgroundColor:'#060609' }}>
