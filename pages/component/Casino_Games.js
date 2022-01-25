@@ -73,30 +73,30 @@ export default function Casino_Games() {
             </div>
             <div className="m-0" style={{ backgroundImage: `url(${bg_casino.src})`, backgroundSize: "cover" }}>
                 <div className='container pt-4 pb-4' >
-                    <div class="row container mx-auto ">
-                        <div class="col m-1 p-0 ">
+                    <div className="row container mx-auto ">
+                        <div className="col m-1 p-0 ">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="w-100"></div>
-                        <div class="col m-1 p-0">
+                        <div className="w-100"></div>
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                     </div>
@@ -107,44 +107,44 @@ export default function Casino_Games() {
             </div>
             <div className="m-0" style={{ backgroundImage: `url(${bg_casino.src})`, backgroundSize: "cover" }}>
                 <div className='container pt-4 pb-4' >
-                    <div class="row container mx-auto ">
-                        <div class="col m-1 p-0 ">
+                    <div className="row container mx-auto ">
+                        <div className="col m-1 p-0 ">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
 
-                        <div class="w-100"></div>
-                        <div class="col m-1 p-0">
+                        <div className="w-100"></div>
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="w-100"></div>
-                        <div class="col m-1 p-0">
+                        <div className="w-100"></div>
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
-                        <div class="col m-1 p-0">
+                        <div className="col m-1 p-0">
                             <img src={casino_1.src} className='w-casino mx-auto d-block' />
                         </div>
                     </div>
