@@ -4,19 +4,35 @@
     opacity: 0;
   }
 }
+.padding-ai{
+  padding: 20px;
+}
+.padding-ai{
+  padding: 50px;
+}
 .fade_btn {
   position: relative;
   font:  bold 5em/1 Bodoni, serif;
   color: rgb(255, 255, 255);
+
   text-align: center;
   animation: fadeIn 0.9s infinite alternate;
 }
-html,body{
+html{
   margin:0px;
-  padding: 0px;
+  padding: 0;
   overflow-x: hidden;
 }
 
+.card-btn {
+  height: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+.w-casino{
+  max-width: 260px;
+}
 .well{
   background-color: rgba(63, 63, 63, 0.4);
 }
@@ -73,6 +89,15 @@ html,body{
   width: 50%;
 }
 @media (max-width: 600px) {
+  .padding-ai{
+    padding: 10px;
+  }
+  .padding-ai{
+    padding: 0px;
+  }
+  .w-casino{
+    max-width: 140px;
+  }
   .card{
     max-width:100%;
     width: 100%;

@@ -63,7 +63,7 @@ export default function Index() {
                 </div>
               <div className="text-center pt-2 " style={{ position: "relative" }}>
                   <img  src={demo1.src} className="rounded w-100" />
-                  <a target="_blank" rel="noreferrer" href='https://web.sa-globalxns.com/h5web/index.html'>
+                  <a target="_blank" rel="noreferrer" href='https://mm88bet.com/demo-sa/'>
                       <img src={button1.src} className="in_img fade_btn" />
                   </a>
               </div>

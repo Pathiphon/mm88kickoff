@@ -133,7 +133,7 @@ function MyApp({ Component, pageProps }) {
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossOrigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossOrigin="anonymous"></script>
 </Head>
-  <div style={{ backgroundImage: `url(${background.src})`, backgroundSize: "100%" }}>
+  <div style={{mb:2, backgroundImage: `url(${background.src})`, backgroundSize: "100%" }}>
         <div className='mx-auto text-center container' >
           <marquee className="mx-auto text-white" width="100%" direction="left" >
             <strong>
@@ -190,7 +190,7 @@ function MyApp({ Component, pageProps }) {
             <img  src={logolast2.src} className="w-75 mx-auto d-block" />
           </div>
           <div className="col-sm-9 p-3 text-footer text-justify">
-            สมาชิกที่สมัครเปิดยูสเซอร์กับทางเว็บ MM88KICKOFF.NET สมัครเว็บ MM88 สามารถร่วมสนุกผ่านเว็บไซต์ได้ทั้งทางคอม PC และโทรศัพท์มือถือระบบ ios,android ซึ่งเว็บไซต์มีระบบรักษาความปลอดภัยที่เชื่อถือได้ เเละมีมาตรฐานสากลระดับโลก ในการรองรับ เล่นพนันออนไลน์ เรามีทีมงานคุณภาพเเละมีออฟฟิตที่ได้มาตรฐานอยู่ในประเทศเพื่อนบ้าน เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน เรามีบริการ Call center 24 ชม. มีช่องทางการติดต่อ ทั้ง โทรศัพท์ Line Livechat ฉะนั้น MM88KICKOFF.NET จึงเป็นเว็บพนันออนไลน์ แทงบอลออนไลน์ แทงสเต็ปออนไลน์ แทงคาสิโนออนไลน์ แทงสล๊อตออนไลน์ แทงหวยออนไลน์ แทงล็อตเตอรี่ออนไลน์ แทงเกมส์ออนไลน์ แทงมวยไทยออนไลน์ แทงบาสเก็ตบอลออนไลน์ แทงเทนนิสออนไลน์ ที่ได้รับความนิยมสูงสุด
+            สมาชิกที่สมัครเปิดยูสเซอร์กับทางเว็บ MM88KICKOFF.NET สมัครเว็บ MM88KICKOFF สามารถร่วมสนุกผ่านเว็บไซต์ได้ทั้งทางคอม PC และโทรศัพท์มือถือระบบ ios,android ซึ่งเว็บไซต์มีระบบรักษาความปลอดภัยที่เชื่อถือได้ เเละมีมาตรฐานสากลระดับโลก ในการรองรับ เล่นพนันออนไลน์ เรามีทีมงานคุณภาพเเละมีออฟฟิตที่ได้มาตรฐานอยู่ในประเทศเพื่อนบ้าน เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน เรามีบริการ Call center 24 ชม. มีช่องทางการติดต่อ ทั้ง โทรศัพท์ Line Livechat ฉะนั้น MM88KICKOFF.NET จึงเป็นเว็บพนันออนไลน์ แทงบอลออนไลน์ แทงสเต็ปออนไลน์ แทงคาสิโนออนไลน์ แทงสล๊อตออนไลน์ แทงหวยออนไลน์ แทงล็อตเตอรี่ออนไลน์ แทงเกมส์ออนไลน์ แทงมวยไทยออนไลน์ แทงบาสเก็ตบอลออนไลน์ แทงเทนนิสออนไลน์ ที่ได้รับความนิยมสูงสุด
           </div>
         </div>
       </div>
