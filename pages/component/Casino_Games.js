@@ -149,23 +149,25 @@ export default function Casino_Games() {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundColor:'#1F1F1F'}}>
+            {/* <div style={{backgroundColor:'#1F1F1F'}}> */}
+            <div style={{ backgroundImage: `url(${bg_casino.src})`, backgroundSize: "cover" }}>
                 <div className='w-100 pt-3 line_cus' >
                     <h4 style={{ whiteSpace: 'nowrap' }}>โปรแกรม AI อัจฉะริยะ</h4>
                 </div>
                 <div className="row padding-ai">
-                    <div className="col-sm">
+                    <div className="col-sm-8">
                         <div className="row text-white padding-ai"> สูตรบาคาร่า AI สูตรแทงบาคาร่า รวมสูตรบาคาร่าทั้งสองค่ายไว้ในเว็บเดียวมีทั้ง สูตร sexy บาคาร่า , สูตร SA บาคาร่า โปรแกรมวิเคราะห์บอล AI วิเคราะห์บอล</div>
                         <div className="row m-1"> <img loading="lazy" src={AI2.src} className="w-100" /></div>
                         
                     </div>
-                    <div className="col-sm  d-flex align-items-center padding-btn" style={{ backgroundColor:'#060609' }}>
+                    {/* <div className="col-sm  d-flex align-items-center padding-btn" style={{ backgroundColor:'#060609' }}> */}
+                    <div className="col-sm-4  d-flex align-items-center padding-btn" >
                         <div className="col-sm mx-auto container text-center ">
-                            <Button
-                                style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px', backgroundColor: '#FFD700', color: '#000000' }}
-                                variant="contained" color='primary' className="w-75" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/" startIcon={<GroupAddIcon />}>
-                                สมัครสมาชิก
-                            </Button>
+                        <Button
+                style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px',color:'#000000'  }}
+                variant="contained"  className="w-75 btn_register text-dark" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/" startIcon={<GroupAddIcon />}>
+                Register สมัครสมาชิก
+              </Button>
 
                             <div className="row mt-2">
                                 <div className="col">
