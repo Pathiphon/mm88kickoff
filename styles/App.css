@@ -13,11 +13,10 @@
   border-style: solid;
   border-width: thin;
 }
+
 .padding-ai{
-  padding: 20px;
-}
-.padding-ai{
-  padding: 50px;
+  padding: 10px;
+  width: 70%;
 }
 .txt_head{
   background: rgb(191,149,63);
@@ -103,11 +102,11 @@ html,body{
   width: 50%;
 }
 @media (max-width: 600px) {
-  .padding-ai{
-    padding: 10px;
-  }
+
   .padding-ai{
     padding: 0px;
+    width: 90%;
+
   }
   .w-casino{
     max-width: 140px;

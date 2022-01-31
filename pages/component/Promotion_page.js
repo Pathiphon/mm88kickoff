@@ -4,6 +4,7 @@ import { Button, Box, CardActions, Typography, CardContent, CardMedia, Card } fr
 import PropTypes from 'prop-types';
 import promotion1 from '../image/promotion1.jpeg'
 import promotion2 from '../image/promotion2.jpeg'
+import bg_pro from '../image/bg_pro.jpeg'
 
 
 function Item(props) {
@@ -37,8 +38,9 @@ Item.propTypes = {
 };
 export default function Promotion_page() {
     return (
-        <div className='bg-dark p-3 w-100'>
+        <div className='p-3 w-100' style={{mb:2, backgroundImage: `url(${bg_pro.src})`, backgroundSize: "cover" }}>
             <Box
+            
                 className="text-center mx-auto"
                 sx={{
                     display: 'flex',
@@ -49,7 +51,6 @@ export default function Promotion_page() {
                     borderRadius: 1,
                 }}
             >
-
                 <Item>
                     <Card sx={{ maxWidth: 520, backgroundColor: '#E0E0E0' }}>
                         <CardMedia

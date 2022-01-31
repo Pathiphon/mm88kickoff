@@ -10,18 +10,20 @@ import PH_ic from '../image/phone_icon.png'
 import bg_call from '../image/callcenter.png';
 export default function Callcenter() {
     const line_click =()=>{
-        window.open('https://lin.ee/DX1nBUa');
+        window.open('https://lin.ee/pySo6A5');
     }
     const fB_click =()=>{
         window.open('https://www.facebook.com/MM88KICKOFF');
     }
     return (
-        <div className='mx-auto w-100' style={{ backgroundColor: '#F5F5F5' }}>
-            <div className='row mx-auto'>
+        // <div className='mx-auto w-100' style={{ height:"500px",backgroundImage: `url(${bg_call.src})`, backgroundSize: "cover" }}>
+        <div className='mx-auto w-100'>
+
+            <div className='row mx-auto' >
                 <div className='col-sm'>
-                    <img loading="lazy" className="d-block w-75 mx-auto" src={bg_call.src} />
+                <img loading="lazy" className="d-block w-75 mx-auto" src={bg_call.src} />
                 </div>
-                <div className='col-sm d-flex align-items-center'>
+                <div className='col-sm d-flex align-items-center justify-center'>
 
                     <List
                         sx={{
@@ -37,7 +39,7 @@ export default function Callcenter() {
                                     <img loading="lazy" className="d-block mx-auto" src={Line_ic.src} style={{ width: '80%' }} />
                                 </ListItemAvatar>
                             </div>
-                            <ListItemText primary="Line ID : @mm88kkf" />
+                            <ListItemText primary="Line ID : @88kickoffservice" />
                         </ListItemButton>
                         <Divider variant="inset" component="li" />
                         <ListItemButton onClick={fB_click}>
