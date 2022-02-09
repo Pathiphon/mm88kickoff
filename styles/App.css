@@ -4,7 +4,9 @@
     opacity: 0;
   }
 }
-
+.img-logo{
+  @apply d-block w-75 mx-auto !important;
+}
 .btn_register{
   background: rgb(190,142,30);
   background: linear-gradient(180deg, rgba(190,142,30,1) 0%, rgba(253,246,215,1) 30%, rgba(255,255,255,1) 50%, rgba(253,246,215,1) 70%, rgba(190,142,30,1) 100%);
@@ -49,7 +51,8 @@ html,body{
   background-color: rgba(63, 63, 63, 0.4);
 }
 .well2{
-  background-size: contain;
+  /* background-size: contain; */
+  max-width: 35%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,7 +105,12 @@ html,body{
   width: 50%;
 }
 @media (max-width: 600px) {
-
+  .well2{
+    /* background-size: contain; */
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .padding-ai{
     padding: 0px;
     width: 90%;

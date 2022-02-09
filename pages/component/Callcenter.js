@@ -3,11 +3,11 @@ import ImageIcon from '@mui/icons-material/Image';
 import WorkIcon from '@mui/icons-material/Work';
 import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 import React from 'react'
-import Line_ic from '../image/line-icon.png'
-import FB_ic from '../image/facebook_icon.png'
-import PH_ic from '../image/phone_icon.png'
+import Line_ic from '../images/icon-line.webp'
+import FB_ic from '../images/icon-facebook.webp'
+import PH_ic from '../images/icon-call.webp'
 
-import bg_call from '../image/callcenter.png';
+import bg_call from '../images/callcenter.webp';
 export default function Callcenter() {
     const line_click =()=>{
         window.open('https://lin.ee/pySo6A5');

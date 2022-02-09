@@ -1,15 +1,14 @@
 import React from 'react'
-import logo1 from '../image/pro_s_1.jpg'
-import logo2 from '../image/pro_s_2.jpg'
-import logo3 from '../image/pro_s_3.jpg'
+import logo1 from '../images/pro_s_1_55_11zon.webp'
+import logo2 from '../images/pro_s_2_56_11zon.webp'
+import logo3 from '../images/pro_s_3_57_11zon.webp'
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import LoginIcon from '@mui/icons-material/Login';
 import { Button, Box, ImageListItem, ImageList, CardActions, Typography, CardContent, CardMedia, Card } from '@mui/material';
 import PropTypes from 'prop-types';
-import casino_1 from '../image/Casino1.jpg'
-import bg_casino from '../image/bg_casino.png'
-import AI2 from '../image/AI2022.jpeg'
-import bg_btn from '../image/bg_btn.jpeg'
+import casino_1 from '../images/Casino1_30_11zon.webp'
+import bg_casino from '../images/bg_casino_4_11zon.webp'
+import AI2 from '../images/AI2022_1_11zon.webp'
 
 function Item(props) {
     const { sx, ...other } = props;
@@ -49,13 +48,13 @@ export default function Casino_Games() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img loading="lazy" className="d-block img_silder w-100" src={logo1.src} alt="First slide" />
+                        <img  className="d-block img_silder w-100" src={logo1.src} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img loading="lazy" className="d-block img_silder w-100" src={logo2.src} alt="Second slide" />
+                        <img  className="d-block img_silder w-100" src={logo2.src} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img loading="lazy" className="d-block img_silder w-100" src={logo3.src} alt="Third slide" />
+                        <img  className="d-block img_silder w-100" src={logo3.src} alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,29 +73,29 @@ export default function Casino_Games() {
                 <div className='container pt-4 pb-4' >
                     <div className="row container mx-auto ">
                         <div className="col m-1 p-0 ">
-                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-inline-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-inline-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-inline-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-inline-block' />
                         </div>
-                        <div className="w-100"></div>
+                        {/* <div className="w-100"></div> */}
                         <div className="col m-1 p-0">
-                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
-                        </div>
-                        <div className="col m-1 p-0">
-                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-inline-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-inline-block' />
                         </div>
                         <div className="col m-1 p-0">
-                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-block' />
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-inline-block' />
+                        </div>
+                        <div className="col m-1 p-0">
+                            <img loading="lazy" src={casino_1.src} className='w-casino mx-auto d-inline-block' />
                         </div>
                     </div>
                 </div>

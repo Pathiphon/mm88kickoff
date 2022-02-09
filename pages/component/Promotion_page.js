@@ -1,10 +1,9 @@
 import React from 'react'
-import Promo from '../image/promotion_ex.png';
 import { Button, Box, CardActions, Typography, CardContent, CardMedia, Card } from '@mui/material';
 import PropTypes from 'prop-types';
-import promotion1 from '../image/promotion1.jpeg'
-import promotion2 from '../image/promotion2.jpeg'
-import bg_pro from '../image/bg_pro.jpeg'
+import promotion1 from '../images/promotion1_59_11zon.webp'
+import promotion2 from '../images/promotion2_60_11zon.webp'
+import bg_pro from '../images/bg_pro_5_11zon.webp'
 
 
 function Item(props) {
