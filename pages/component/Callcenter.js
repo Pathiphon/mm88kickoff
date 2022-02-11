@@ -1,13 +1,11 @@
 import { Divider, List, ListItem, ListItemText, ListItemAvatar, ListItemButton  } from '@mui/material';
-import ImageIcon from '@mui/icons-material/Image';
-import WorkIcon from '@mui/icons-material/Work';
-import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 import React from 'react'
 import Line_ic from '../images/icon-line.webp'
 import FB_ic from '../images/icon-facebook.webp'
 import PH_ic from '../images/icon-call.webp'
 
-import bg_call from '../images/callcenter.webp';
+import bg_call from '../images/icon_callcenter.webp';
+import bg from '../images/AnyConv.com__bg_callcenter.webp'
 export default function Callcenter() {
     const line_click =()=>{
         window.open('https://lin.ee/pySo6A5');
@@ -17,7 +15,7 @@ export default function Callcenter() {
     }
     return (
         // <div className='mx-auto w-100' style={{ height:"500px",backgroundImage: `url(${bg_call.src})`, backgroundSize: "cover" }}>
-        <div className='mx-auto w-100'>
+        <div className='mx-auto w-100' style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "cover" }}>
 
             <div className='row mx-auto' >
                 <div className='col-sm'>
@@ -32,14 +30,14 @@ export default function Callcenter() {
 
                         }}
                     >
-                        <h5 className='text-center'>ช่องทางการติดต่อ</h5>
+                        <h5 className='text-center '>ช่องทางการติดต่อ</h5>
                         <ListItemButton  onClick={line_click}>
                             <div className='w-25'>
                                 <ListItemAvatar >
                                     <img loading="lazy" className="d-block mx-auto" src={Line_ic.src} style={{ width: '80%' }} />
                                 </ListItemAvatar>
                             </div>
-                            <ListItemText primary="Line ID : @88kickoffservice" />
+                             <p className='text_bold my-auto'>Line ID : @88kickoffservice</p>
                         </ListItemButton>
                         <Divider variant="inset" component="li" />
                         <ListItemButton onClick={fB_click}>
@@ -48,7 +46,7 @@ export default function Callcenter() {
                                     <img loading="lazy" className="d-block mx-auto" src={FB_ic.src} style={{ width: '80%' }} />
                                 </ListItemAvatar>
                             </div>
-                            <ListItemText primary="Facebook : MM88KICKOFF" />
+                            <p className='text_bold my-auto'>Facebook : MM88KICKOFF</p>
                         </ListItemButton>
                         <Divider variant="inset" component="li" />
                         <ListItem>
@@ -57,7 +55,7 @@ export default function Callcenter() {
                                     <img loading="lazy" className="d-block mx-auto" src={PH_ic.src} style={{ width: '80%' }} />
                                 </ListItemAvatar>
                             </div>
-                            <ListItemText primary="โทร : 📞 091-4053883" />
+                            <p className='text_bold my-auto'>โทร : 📞 091-4053883</p>
                         </ListItem>
                     </List>
                 </div>

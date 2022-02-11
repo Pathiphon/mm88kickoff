@@ -59,14 +59,15 @@ export default function Promotion_page() {
                             image={promotion1.src}
                         />
                         <CardContent >
-                            <Typography variant="body1" className="text-justify d-flex align-items-center">
+                            <Typography variant="body1" className="text_promotion text-justify d-flex align-items-center">
                                 🧧คืนยอดสูงสุด 3% ทุกเกมส์การพนัน🧧<br />
                                 🔶สูงสุด 3,333 บาท ของทุกเดือน<br />
                                 ทำยอดเทิร์น 1 เท่าสามารถอนได้เลย<br />
+                                
                             </Typography>
                         </CardContent>
                         <CardActions sx={{ display: 'flex', alignItems: 'center' }}>
-                            <Button variant="contained" color="secondary" sx={{ m: 'auto' }} size="large">รับโปรโมชั่น</Button>
+                            <Button variant="contained" color="warning" sx={{ m: 'auto' }} size="large" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/">รับโปรโมชั่น</Button>
                         </CardActions>
                     </Card>
                 </Item>
@@ -86,7 +87,7 @@ export default function Promotion_page() {
                             </Typography>
                         </CardContent>
                         <CardActions sx={{ display: 'flex', alignItems: 'center' }}>
-                            <Button variant="contained" color="secondary" sx={{ m: 'auto' }} size="large">รับโปรโมชั่น</Button>
+                            <Button variant="contained" color="warning" sx={{ m: 'auto' }} size="large" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/">รับโปรโมชั่น</Button>
                         </CardActions>
                     </Card>
                 </Item>
