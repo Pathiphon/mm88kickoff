@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import '../styles/App.css'
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
@@ -10,19 +10,28 @@ import background from "./images/bg2_7_11zon.webp";
 
 import LoginIcon from '@mui/icons-material/Login';
 import logolast2 from './images/LOGO_NEW2.webp';
-import { makeStyles } from '@material-ui/styles';
+
 import bg12 from './images/bg14_23_11zon.webp'
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import { Button, Box, List, SwipeableDrawer, ListItem, ListItemIcon, ListItemText, Divider } from '@mui/material';
 import Link from 'next/link';
 import Head from 'next/head';
 
+import dynamic from 'next/dynamic'
+
 
 function MyApp({ Component, pageProps }) {
-  const [state, setState] = React.useState({
+  const [modalShow, setModalShow] = useState(true);
+  const [state, setState] = useState({
     left: false,
 
   });
+  const CenterModal = dynamic(() => import('./component/CenterModal'))
+  // const _onClick = () => {
+  //   setTimeout(() => setModalShow(true), 1000)
+  // };
+  // _onClick();
+
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -111,12 +120,19 @@ function MyApp({ Component, pageProps }) {
 
 
 
+
   return (
     <div>
+      {/* <Button variant="primary" onClick={() => setModalShow(true)}>
+        Launch vertically centered modal
+      </Button> */}
+      <CenterModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
       <Head>
         <title>mm88kickoff</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossOrigin="anonymous" />
-
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossOrigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossOrigin="anonymous"></script>
       </Head>
@@ -124,7 +140,7 @@ function MyApp({ Component, pageProps }) {
         <div className='mx-auto text-center container' >
           <marquee className="mx-auto text-white" width="100%" direction="left" >
             <strong>
-              ** หารายได้ โดยวิธีง่ายๆ เพียงแค่สมัครสมาชิก แล้วส่งลิ้งแนะนำเพื่อนให้เพื่อนสมัครรับไปเลยค่าคอมมิชชั่นกับคืนยอดเสียของเพื่อน(ตั้งแต่วันที่ 1 ถึงสิ้นเดือน ระบบจะโอนให้ทุกวันที่ 2 ของเดือน) **
+              ** ประกาศ!! ระบบฝาก/ถอน ธนาคารกสิกรและไทยพาณิชย์ ปิดปรับปรุงชั่วคราว ในวันที่ 8 เม.ย. ถึง 9 เม.ย. 2565 ตั้งแต่เวลา 23:00 - 08:00 **
             </strong>
           </marquee>
         </div>
@@ -171,6 +187,7 @@ function MyApp({ Component, pageProps }) {
           </div>
         </div>
       </div>
+      
       <Component {...pageProps} />
       <div className=" text-white w-100 bgcolor1">
         <div className="row w-100 container mx-auto">
@@ -178,7 +195,7 @@ function MyApp({ Component, pageProps }) {
             <img src={logolast2.src} className="w-75 mx-auto d-block" />
           </div>
           <div className="col-sm-9 p-3 text-footer text-justify" >
-            <p style={{ wordSpacing: '0px',textIndent:'25%' }}>
+            <p style={{ wordSpacing: '0px', textIndent: '25%' }}>
               สมาชิกที่สมัครเปิดยูสเซอร์กับทางเว็บ MM88KICKOFF.NET สามารถร่วมสนุกผ่านเว็บไซต์ได้ทั้งทางคอมPCและโทรศัพท์มือถือระบบ ios,android ซึ่งเว็บไซต์มีระบบรักษาความปลอดภัยที่เชื่อถือได้ เเละมีมาตรฐานสากลระดับโลก ในการรองรับ เล่นพนันออนไลน์ เรามีทีมงานคุณภาพเเละมีออฟฟิตที่ได้มาตรฐานอยู่ในประเทศเพื่อนบ้าน เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน เรามีบริการ Call center 24 ชม. มีช่องทางการติดต่อ ทั้ง โทรศัพท์ Line ฉะนั้น MM88KICKOFF เป็นเว็บพนันออนไลน์ที่มาเเรงที่สุดในปี 2022 เล่นได้ทุกอย่างที่ต้องการ บาคาร่า สล็อต หวย และกีฬาอื่นๆอีกมากมาย เล่นจริงจ่ายจริง เชื่อถือได้ 100%
             </p>
           </div>
