@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
     left: false,
 
   });
-  const CenterModal = dynamic(() => import('./component/CenterModal'))
+  // const CenterModal = dynamic(() => import('./component/CenterModal'))
   // const _onClick = () => {
   //   setTimeout(() => setModalShow(true), 1000)
   // };
@@ -123,13 +123,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div>
-      {/* <Button variant="primary" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
-      </Button> */}
-      <CenterModal
+
+      {/* <CenterModal
         show={modalShow}
         onHide={() => setModalShow(false)}
-      />
+      /> */}
       <Head>
         <title>mm88kickoff</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossOrigin="anonymous" />
@@ -140,7 +138,7 @@ function MyApp({ Component, pageProps }) {
         <div className='mx-auto text-center container' >
           <marquee className="mx-auto text-white" width="100%" direction="left" >
             <strong>
-              ** ประกาศ!! ระบบฝาก/ถอน ธนาคารกสิกรและไทยพาณิชย์ ปิดปรับปรุงชั่วคราว ในวันที่ 8 เม.ย. ถึง 9 เม.ย. 2565 ตั้งแต่เวลา 23:00 - 08:00 **
+            ** หารายได้ โดยวิธีง่ายๆ เพียงแค่สมัครสมาชิก แล้วส่งลิ้งแนะนำเพื่อนให้เพื่อนสมัครรับไปเลยค่าคอมมิชชั่นกับคืนยอดเสียของเพื่อน(ตั้งแต่วันที่ 1 ถึงสิ้นเดือน ระบบจะโอนให้ทุกวันที่ 2 ของเดือน) **
             </strong>
           </marquee>
         </div>
