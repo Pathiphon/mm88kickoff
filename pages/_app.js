@@ -17,8 +17,6 @@ import { Button, Box, List, SwipeableDrawer, ListItem, ListItemIcon, ListItemTex
 import Link from 'next/link';
 import Head from 'next/head';
 
-import logo_ep from './image/logo_ep.png'
-
 import dynamic from 'next/dynamic'
 
 
@@ -168,7 +166,7 @@ function MyApp({ Component, pageProps }) {
               </SwipeableDrawer>
             </div>
             <div className="col-sm container mx-auto">
-              <img className="d-block w-75 mx-auto rounded" src={logo_ep.src} alt="Second slide" />
+              <img className="d-block w-75 mx-auto" src={logolast2.src} alt="Second slide" />
               {/* <Image src={logolast2.src} className="img-logo" width={250} height={250} layout="intrinsic" alt="Second slide"  /> */}
             </div>
             <div className="col-sm mx-auto container text-center">
@@ -195,13 +193,11 @@ function MyApp({ Component, pageProps }) {
       <div className=" text-white w-100 bgcolor1">
         <div className="row w-100 container mx-auto">
           <div className="col-sm-3 p-3 ">
-            <img src={logo_ep.src} className="w-75 mx-auto d-block" />
+            <img src={logolast2.src} className="w-75 mx-auto d-block" />
           </div>
           <div className="col-sm-9 p-3 text-footer text-justify" >
             <p style={{ wordSpacing: '0px', textIndent: '25%' }}>
-            เรานำเสนอวิธีที่ไม่มีความเครียดและซับซ้อนน้อยกว่าสำหรับลูกค้าในการทำการฝากและถอนเงินทางอิเล็กทรอนิกส์ คุณเพียงแค่ต้องทำตามขั้นตอนง่ายๆ ในศูนย์ข้อมูลแล้วการทำธุรกรรมแต่ละรายการสามารถทำได้อย่างง่ายดาย คุณลักษณะเหล่านี้ทำให้การเล่นเกมส์ปลอดภัยทั้งยังสนุกสนานเพื่อให้ผู้เล่นรู้สึกสบายใจเมื่อเข้าสู่เว็บไซต์ของเรา
-
-ยินดีต้อนรับสู่การเป็นหนึ่งในคู่ค้าของเราเนื่องจากจะทำให้คุณได้รับค่าคอมมิชชั่นที่สูงขึ้นต่อวันหรือต่อนาทีโดยการพาผู้เล่นมายังเว็ปไซต์เกมส์คาสิโนของเรา
+              สมาชิกที่สมัครเปิดยูสเซอร์กับทางเว็บ MM88KICKOFF.NET สามารถร่วมสนุกผ่านเว็บไซต์ได้ทั้งทางคอมPCและโทรศัพท์มือถือระบบ ios,android ซึ่งเว็บไซต์มีระบบรักษาความปลอดภัยที่เชื่อถือได้ เเละมีมาตรฐานสากลระดับโลก ในการรองรับ เล่นพนันออนไลน์ เรามีทีมงานคุณภาพเเละมีออฟฟิตที่ได้มาตรฐานอยู่ในประเทศเพื่อนบ้าน เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน เรามีบริการ Call center 24 ชม. มีช่องทางการติดต่อ ทั้ง โทรศัพท์ Line ฉะนั้น MM88KICKOFF เป็นเว็บพนันออนไลน์ที่มาเเรงที่สุดในปี 2022 เล่นได้ทุกอย่างที่ต้องการ บาคาร่า สล็อต หวย และกีฬาอื่นๆอีกมากมาย เล่นจริงจ่ายจริง เชื่อถือได้ 100%
             </p>
           </div>
         </div>
