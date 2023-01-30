@@ -62,7 +62,7 @@ function MyApp({ Component, pageProps }) {
           </a>
         </Link>
         <Divider color='white' />
-        <a className="textDec text-center" href='https://acc.mm88kickoff.bet/register/' rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
+        <a className="textDec text-center" href='https://chat.line.biz/Ua356640a022ca9e38af0f6addf3cf4c2' rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
           <ListItem button style={{ display: 'flex', justifyContent: 'center' }} >
             <ListItemIcon>
               <GroupAddIcon className="icon_nav mx-auto" />
@@ -93,7 +93,7 @@ function MyApp({ Component, pageProps }) {
           </a>
         </Link>
         <Divider color='white' />
-        <a className="textDec text-center" href='https://acc.mm88kickoff.bet/?fbclid=IwAR121Rkn_3uw449_hreLKrOshvlkTD9mH2YX0qPF_UQFXndQI8gV0MoOWtA' rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
+        <a className="textDec text-center" href='https://mmm8bet.a5member.com/' rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
           <ListItem button style={{ display: 'flex', justifyContent: 'center' }}>
             <ListItemIcon>
               <ExitToAppIcon className="icon_nav mx-auto" />
@@ -172,7 +172,7 @@ function MyApp({ Component, pageProps }) {
             <div className="col-sm mx-auto container text-center">
               <Button
                 style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px', color: '#000000' }}
-                variant="contained" className="w-75 btn_register text-dark" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/" startIcon={<GroupAddIcon />}>
+                variant="contained" className="w-75 btn_register text-dark" rel="noreferrer" target="_blank" component="a" href="https://chat.line.biz/Ua356640a022ca9e38af0f6addf3cf4c2" startIcon={<GroupAddIcon />}>
                 Register สมัครสมาชิก
               </Button>
 
@@ -180,7 +180,7 @@ function MyApp({ Component, pageProps }) {
                 <div className="col">
                   <Button
                     style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px' }}
-                    variant="contained" color='error' className="w-75" rel="noreferrer" target="_blank" component="a" href="https://acc.mm88kickoff.bet/?fbclid=IwAR121Rkn_3uw449_hreLKrOshvlkTD9mH2YX0qPF_UQFXndQI8gV0MoOWtA" startIcon={<LoginIcon />}>
+                    variant="contained" color='error' className="w-75" rel="noreferrer" target="_blank" component="a" href="https://mmm8bet.a5member.com/" startIcon={<LoginIcon />}>
                     Login เข้าสู่ระบบ
                   </Button></div>
               </div>
