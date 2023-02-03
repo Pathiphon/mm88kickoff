@@ -62,7 +62,7 @@ function MyApp({ Component, pageProps }) {
           </a>
         </Link>
         <Divider color='white' />
-        <a className="textDec text-center" href='https://chat.line.biz/Ua356640a022ca9e38af0f6addf3cf4c2' rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
+        <a className="textDec text-center" href='https://lin.ee/cgpoSzIx' rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
           <ListItem button style={{ display: 'flex', justifyContent: 'center' }} >
             <ListItemIcon>
               <GroupAddIcon className="icon_nav mx-auto" />
@@ -172,7 +172,7 @@ function MyApp({ Component, pageProps }) {
             <div className="col-sm mx-auto container text-center">
               <Button
                 style={{ maxWidth: '80px', maxHeight: '80px', minWidth: '300px', minHeight: '50px', color: '#000000' }}
-                variant="contained" className="w-75 btn_register text-dark" rel="noreferrer" target="_blank" component="a" href="https://chat.line.biz/Ua356640a022ca9e38af0f6addf3cf4c2" startIcon={<GroupAddIcon />}>
+                variant="contained" className="w-75 btn_register text-dark" rel="noreferrer" target="_blank" component="a" href="https://lin.ee/cgpoSzIx" startIcon={<GroupAddIcon />}>
                 Register สมัครสมาชิก
               </Button>
 
